@@ -1,6 +1,7 @@
 /*Program to print 5 using astric*/
 #include<stdio.h>
-int main()
+#include<conio.h>
+void main()
    {
        int i,j;
        for(i=1;i<=7;i++)
@@ -12,5 +13,5 @@ int main()
                  printf("  ");
               printf("\n");      
           }
-       return 0;   
+       getch();   
    }
